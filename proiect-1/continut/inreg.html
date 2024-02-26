@@ -1,0 +1,57 @@
+
+
+  <form>
+    <fieldset>
+      <legend>Informatii generale:</legend>
+    <label for ="nume">NumeUtilizator:</label>
+    <br><input type="text" id="nume" nume="nume"><br>
+    <label for="parola">Parola:</label>
+    <br><input type="password" id="parola" name="parola"><br>
+    <label for ="nume">Nume:</label>
+    <br><input type="text" id="nume" nume="nume"><br>
+    <label for ="prenume">Prenume:</label>
+    <br><input type="text" id="prenume" prenumenume="prenume"><br>
+    <label for ="email">Email:</label>
+    <br><input type="email" id="email" name="email"><br>
+    <label for="tel">Telefon:</label>
+    <br><input type="text" id="tel" name="tel"><br>
+  </fieldset>
+<br>
+  <fieldset>
+    <legend>Informatii personale:</legend>
+    <label for="sex">Sex:</label>
+    <br><select id="sex" name="sex" size="1" single>
+      <option value="M">masculin</option>
+      <option value="F">feminin</option>
+    </select> <br>
+    <label for="mancare">Mancare preferata:</label>
+    <input list="mancaruri" name="mancare" id="mancare"><br>
+    <datalist id="mancaruri">
+      <option value="pizza"></option>
+      <option value="cartofi"></option>
+      <option value="burger"></option>
+      <option value="pui"></option>
+      <option value="vita"></option>
+      <option value="banane"></option>
+    </datalist>
+    <br><label for="culoare">Culoarea preferata:</label>
+    <select id="culoare" name="culoare" size="1" single>
+      <option value="rosu">rosu</option>
+      <option value="verde">verde</option>
+      <option value="albastru">albastru</option>
+      <option value="galben">galben</option>
+    </select> 
+    <br>
+    <br>
+    <label for="date">DataNastere:</label>
+    <br><input type="date" id="date" name="date"><br><br>
+    <label for="ora">OraNastere:</label>
+    <br><input type="time" id="ora" name="ora"><br><br>
+    <label for="age">Varsta:</label>
+    <br><input type="range" list="ani"><br><br>
+    <label for="pagina">Pagina personala:</label>
+    <br><input type="url" id="pagina" name="pagina"><br>
+  </fieldset>
+    <button type="button" disabled>Inregistreaza</button> 
+  </form>
+

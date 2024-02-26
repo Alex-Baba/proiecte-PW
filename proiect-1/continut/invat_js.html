@@ -1,0 +1,80 @@
+
+      <aside>
+        <ul>
+            <li><a href="#s1">Informații generale</a></li>
+            <li><a href="#s2">Internet Loto</a></li>
+            <li><a href="#s3">Zonă de desenare</a></li>
+            <li><a href="#s4">Tabel dinamic</a></li>
+    </ul>
+      </aside>
+
+      <section id="s1">
+		  <br>
+		<h2>Despre client: </h2>
+		<!--textarea  rows ="10" cols="100" id ="s1">Aici apar informații legate de client.</textarea-->
+		<div id="print_">
+		<span>Data curentă:</span><span id="data"></span><br/>
+		<span>Adresa URL:</span><span id="adresa"></span><br/>
+		<span>Locația curentă:</span><span id="locatie"></span><br/>
+		<span>Browser:</span><span id="browser"></span><br/>
+		</div>
+	</section>
+	<br>
+	
+      <section id="s2">
+		<h2>Internet LOTO</h2>
+		<div >
+		<form >
+			<input type="text" value="0" id="x1"/>
+			<input type="text" value="0" id="x2"/>
+			<input type="text" value="0" id="x3"/>
+			<input type="text" value="0" id="x4"/>
+			<input type="text" value="0" id="x5"/>
+			<input type="text" value="0" id="x6"/>
+			<input type="text" value="0" id="x7"/>
+			<input type="text" value="0" id="x8"/>
+			<input type="submit" value="extrage" onclick="loto(); return false;"/><br/>
+
+			<span id="zona_afisare"></span>
+		</form>
+	</div>
+	</section>
+
+    <br/>
+	<section id="s3">
+		<h2>Zonă de desenare </h2>
+		<span>Contur:</span><input type="color" id="culoare_1" value="black"/>&nbsp;
+		<span>Culoare umplere:</span><input type="color" id="culoare_2" value="white"/>
+		<canvas id="canvas" width="1200px" height="400px" onmousedown="desenare();">
+		</canvas>
+	</section>
+	<br/>
+	<section id="s4">
+		<h2>Tabel interactiv</h2>
+		<form>
+			<label>Culoarea celulelor:</label><input type="color" name="" value="black" id="culoare_3"/>
+			<label>Index linie nouă:</label><input type="number" value="0"  id="numar_linie"/><button onclick="inserție_l(); return false;">Insereaza linie</button>
+			<label>Index coloană nouă:</label><input type="number" value="0"  id="numar_coloană"/><button onclick="inserție_c(); return false;">Insereaza coloană</button>
+
+		</form><br/>
+
+					<table id="tabel" align="center">
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>5</td>
+							<td>6</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+						</tr>
+					</table>
+	</section>
+	<br/>
+		
