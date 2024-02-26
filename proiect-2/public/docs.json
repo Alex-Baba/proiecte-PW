@@ -1,0 +1,46 @@
+[
+  {
+    "doc": "pasaport",
+    "price": 400
+    
+  },
+  {
+    "doc": "buletin",
+    "price": 150
+    
+  },
+  {
+    "doc": "certificat de nastere",
+    "price": 2000
+    
+  },
+  {
+    "doc": "certificat de deces",
+    "price": 50000
+    
+  },
+  {
+    "doc": "diploma liceu",
+    "price": 750
+    
+  },
+  {
+    "doc": "diploma bacalaureat",
+    "price": 1250
+    
+  },
+  {
+    "doc": "diploma licenta",
+    "price": 25000
+    
+  },
+  {
+    "doc": "pix",
+    "price": 2
+  },
+  {
+    "doc": "folie",
+    "price": 1
+  }
+
+]

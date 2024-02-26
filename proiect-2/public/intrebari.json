@@ -1,0 +1,54 @@
+[
+  {
+    
+    "intrebare": "La ce varsta iti faci prima oara buletin?",
+    "variante": [
+      "13",
+      "16",
+      "15",
+      "14"
+    ],
+    "corect": 3
+  },
+  {
+    "intrebare": "Cate cifre are cnp-ul??",
+    "variante": [
+      "3",
+      "13",
+      "10",
+      "15"
+    ],
+    "corect": 1
+  },
+  {
+    "intrebare": "Cati ani este valabil permisul de conducere?",
+    "variante": [
+      "10",
+      "7",
+      "15",
+      "20"
+    ],
+    "corect": 0
+  },
+  {
+    "intrebare": "Cati ani este valabil buletinul?",
+    "variante": [
+      "10",
+      "7",
+      "15",
+      "20"
+    ],
+    "corect": 1
+  },
+  {
+    "intrebare": "Cate pasapoarte poti avea?",
+    "variante": [
+      "10",
+      "7",
+      "15",
+      "2"
+    ],
+    "corect": 3
+  }
+  
+]
